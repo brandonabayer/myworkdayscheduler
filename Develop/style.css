@@ -32,7 +32,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 100px;
   border-top: 1px solid white;;
 }
 
@@ -68,4 +68,37 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.row .col-8 {
+  padding: 1px;      
+}
+.row .col-2 {
+  padding: 1px;
+  height: calc(2.1em + .75rem + 2px);
+}
+.row {
+  white-space: normal;
+}
+.li .btn {
+  border-bottom: #dddddd 10px solid;
+  padding-bottom: 2px;
+  height: calc(2.1em + .75rem + 2px);
+}
+
+.input {
+  white-space: normal;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.1em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
 }
